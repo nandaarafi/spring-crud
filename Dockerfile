@@ -8,4 +8,4 @@ RUN mvn clean install package
 
 EXPOSE 4444
 
-CMD ["java", "-jar", "target/simple-crud.jar"]
+CMD ["java", "-jar", "target/crud_demo-0.0.1-SNAPSHOT.jar"]

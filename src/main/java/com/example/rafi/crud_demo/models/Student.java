@@ -9,9 +9,9 @@ import java.time.LocalDate;
 
 @Data
 @AllArgsConstructor
-@NoArgsConstructor // No-arg constructor needed for JPA
+@NoArgsConstructor
 @Entity
-@Table(name = "students") // Specifies the table name
+@Table(name = "students")
 public class Student {
 
     @Id
